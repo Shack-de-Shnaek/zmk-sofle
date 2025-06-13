@@ -36,8 +36,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: k, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: l, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: LGUI, s: ':'}
   - {t: '''', s: '"'}
   - '&sh_cap'
