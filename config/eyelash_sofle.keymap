@@ -36,13 +36,11 @@
         tap-ms = <100>;
     };
 
-    behaviors {
-        sh_cap: shit_caps_tap_dance {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <100>;
-            bindings = <&kp LSHIFT>, <&kp LSHIFT>, <&kp CAPS>;
-        };
+    sh_cap: shit_caps_tap_dance {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <100>;
+        bindings = <&kp LSHIFT>, <&kp LSHIFT>, <&kp CAPS>;
     };
 
     keymap {
