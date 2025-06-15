@@ -43,10 +43,10 @@
             tapping-term-ms = <100>;
             bindings = <&kp LSHIFT>, <&kp LSHIFT>, <&kp CAPS>;
         };
-    };
 
-    &mt {
-        tapping-terms-ms = <60>;
+        &mt {
+            tapping-terms-ms = <60>;
+        };
     };
 
     keymap {
