@@ -151,10 +151,10 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
+  - PgDn
+  - PgUp
+  - END
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -164,9 +164,9 @@ layers:
   - AC PASTE
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -260,3 +260,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [16, 17]
+  k: {t: '[', s: '{'}
+  l: [BASE_FANCY]
+- p: [21, 22]
+  k: {t: ']', s: '}'}
+  l: [BASE_FANCY]
+- p: [29, 30]
+  k: '{'
+  l: [BASE_FANCY]
+- p: [34, 35]
+  k: '}'
+  l: [BASE_FANCY]
