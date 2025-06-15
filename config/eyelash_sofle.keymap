@@ -44,8 +44,13 @@
             bindings = <&kp LSHIFT>, <&kp LSHIFT>, <&kp CAPS>;
         };
 
-        &mt {
-            tapping-terms-ms = <60>;
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <75>;
+            bindings = <&kp>, <&kp>;
+            display-name = "Mod-Tap";
         };
     };
 
