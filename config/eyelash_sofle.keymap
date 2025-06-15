@@ -35,26 +35,26 @@
             timeout-ms = <40>;
             key-positions = <16 17>;
             bindings = <&kp LEFT_BRACKET>;
-            layers = <0>
+            layers = <0>;
         };
         combo_right_square {
             timeout-ms = <40>;
             key-positions = <21 22>;
             bindings = <&kp RIGHT_BRACKET>;
-            layers = <0>
+            layers = <0>;
         };
 
         combo_left_squirly {
             timeout-ms = <40>;
             key-positions = <29 30>;
             bindings = <&kp LEFT_BRACE>;
-            layers = <0>
+            layers = <0>;
         };
         combo_right_squirly {
             timeout-ms = <40>;
             key-positions = <34 35>;
             bindings = <&kp RIGHT_BRACE>;
-            layers = <0>
+            layers = <0>;
         };
     };
 
