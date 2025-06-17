@@ -80,6 +80,7 @@
             tapping-term-ms = <150>;
             bindings = <&kp>, <&kp>;
             display-name = "Mod-Tap";
+            require-prior-idle-ms = <50>;
         };
     };
 
