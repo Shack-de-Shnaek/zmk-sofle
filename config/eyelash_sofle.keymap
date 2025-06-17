@@ -76,11 +76,11 @@
         mt: mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <280>;
+            flavor = "trap-preferred";
+            tapping-term-ms = <200>;
             bindings = <&kp>, <&kp>;
             display-name = "Mod-Tap";
-            quick-tap-ms = <175>;
+            quick-tap-ms = <150>;
             require-prior-idle-ms = <150>;
         };
     };
