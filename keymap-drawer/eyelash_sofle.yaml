@@ -56,13 +56,13 @@ layers:
   - PLAY PAUSE
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - FUNCTION
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYSTEM
-  - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   BASE_SIMPLE:
@@ -121,13 +121,13 @@ layers:
   - PLAY PAUSE
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - FUNCTION
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYSTEM
-  - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   FUNCTION:
