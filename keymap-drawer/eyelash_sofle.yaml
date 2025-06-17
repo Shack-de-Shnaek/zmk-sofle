@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYSTEM
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   BASE_SIMPLE:
   - $$mdi:keyboard-esc$$
@@ -127,8 +127,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYSTEM
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   FUNCTION:
   - {t: '`', s: '~'}
