@@ -264,12 +264,12 @@ combos:
 - p: [16, 17]
   k: {t: '[', s: '{'}
   l: [BASE_FANCY]
-- p: [21, 22]
+- p: [20, 21]
   k: {t: ']', s: '}'}
   l: [BASE_FANCY]
 - p: [29, 30]
   k: '{'
   l: [BASE_FANCY]
-- p: [34, 35]
+- p: [33, 34]
   k: '}'
   l: [BASE_FANCY]
