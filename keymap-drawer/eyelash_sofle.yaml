@@ -64,7 +64,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   BASE_SIMPLE:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -129,7 +129,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   FUNCTION:
   - {t: '`', s: '~'}
   - F1
@@ -264,12 +264,6 @@ combos:
 - p: [16, 17]
   k: {t: '[', s: '{'}
   l: [BASE_FANCY]
-- p: [20, 21]
+- p: [21, 22]
   k: {t: ']', s: '}'}
-  l: [BASE_FANCY]
-- p: [30, 31]
-  k: '{'
-  l: [BASE_FANCY]
-- p: [34, 35]
-  k: '}'
   l: [BASE_FANCY]
