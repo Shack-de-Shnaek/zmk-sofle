@@ -267,9 +267,9 @@ combos:
 - p: [20, 21]
   k: {t: ']', s: '}'}
   l: [BASE_FANCY]
-- p: [29, 30]
+- p: [30, 31]
   k: '{'
   l: [BASE_FANCY]
-- p: [33, 34]
+- p: [34, 35]
   k: '}'
   l: [BASE_FANCY]
