@@ -32,13 +32,13 @@
     combos {
         compatible = "zmk,combos";
         combo_left_square {
-            timeout-ms = <40>;
+            timeout-ms = <25>;
             key-positions = <16 17>;
             bindings = <&kp LEFT_BRACKET>;
             layers = <0>;
         };
         combo_right_square {
-            timeout-ms = <40>;
+            timeout-ms = <25>;
             key-positions = <21 22>;
             bindings = <&kp RIGHT_BRACKET>;
             layers = <0>;
