@@ -146,7 +146,7 @@
 &trans      &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP  &kp END   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &kp C_AC_CUT    &kp C_AC_COPY    &kp C_AC_PASTE   &mkp MB5           &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP       &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT   &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &kp C_NEXT       &kp C_PREV       &trans             &mkp LCLK        &trans           &trans           &trans       &trans     &trans
+&kp C_MUTE  &trans           &trans          &kp C_PREV       &kp C_NEXT       &trans             &mkp LCLK        &trans           &trans           &trans       &trans     &trans
             >;
 
             display-name = "FUNCTION";
