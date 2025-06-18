@@ -280,8 +280,8 @@ combos:
   k: {h: '-', s: _}
   l: [BASE_FANCY]
 - p: [41, 42]
-  k: {t: '=', s: +}
+  k: +
   l: [BASE_FANCY]
 - p: [48, 49]
-  k: {t: '-', s: _}
+  k: _
   l: [BASE_FANCY]
