@@ -73,13 +73,13 @@
         combo_plus {
             timeout-ms = <25>;
             key-positions = <41 42>;
-            bindings = <&kp EQUAL>;
+            bindings = <&kp PLUS>;
             layers = <0>;
         };
         combo_underscore {
             timeout-ms = <25>;
             key-positions = <48 49>;
-            bindings = <&kp MINUS>;
+            bindings = <&kp UNDERSCORE>;
             layers = <0>;
         };
     };
