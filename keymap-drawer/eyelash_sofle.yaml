@@ -216,7 +216,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: BASE_FANCY, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '%'
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
