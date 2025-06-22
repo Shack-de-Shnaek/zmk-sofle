@@ -36,12 +36,14 @@
             key-positions = <16 17>;
             bindings = <&kp LEFT_BRACKET>;
             layers = <0>;
+            slow-release = <true>;
         };
         combo_right_square {
             timeout-ms = <25>;
             key-positions = <21 22>;
             bindings = <&kp RIGHT_BRACKET>;
             layers = <0>;
+            slow-release = <true>;
         };
 
         combo_left_squirly {
@@ -49,12 +51,14 @@
             key-positions = <42 43>;
             bindings = <&kp LEFT_BRACE>;
             layers = <0>;
+            slow-release = <true>;
         };
         combo_right_squirly {
             timeout-ms = <25>;
             key-positions = <47 48>;
             bindings = <&kp RIGHT_BRACE>;
             layers = <0>;
+            slow-release = <true>;
         };
 
         combo_equals {
@@ -62,12 +66,14 @@
             key-positions = <15 16>;
             bindings = <&kp EQUAL>;
             layers = <0>;
+            slow-release = <true>;
         };
         combo_minus {
             timeout-ms = <25>;
             key-positions = <22 23>;
             bindings = <&kp MINUS>;
             layers = <0>;
+            slow-release = <true>;
         };
 
         combo_plus {
@@ -75,12 +81,14 @@
             key-positions = <41 42>;
             bindings = <&kp PLUS>;
             layers = <0>;
+            slow-release = <true>;
         };
         combo_underscore {
             timeout-ms = <25>;
             key-positions = <48 49>;
             bindings = <&kp UNDERSCORE>;
             layers = <0>;
+            slow-release = <true>;
         };
     };
 
