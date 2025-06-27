@@ -15,6 +15,136 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-down-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-control$$
+  - {t: A, h: LGUI}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - $$mdi:arrow-left-bold$$
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: LGUI, s: ':'}
+  - {t: '''', s: '"'}
+  - '&sh_cap'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:arrow-right-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - PLAY PAUSE
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - FUNCTION
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - SYSTEM
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-shift$$
+  BASE_SIMPLE:
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-down-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - $$mdi:arrow-left-bold$$
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:arrow-right-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - PLAY PAUSE
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - FUNCTION
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - SYSTEM
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-shift$$
+  BASE_FANCY_ENGRAMMER:
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - B
   - Y
   - O
@@ -65,7 +195,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
-  BASE_SIMPLE:
+  BASE_SIMPLE_ENGRAMMER:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -213,7 +343,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: BASE_FANCY, h: toggle}
+  - {t: BASE_FANCY_ENGRAMMER, h: toggle}
   - {t: BASE_FANCY, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PRINTSCREEN
@@ -226,7 +356,7 @@ layers:
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: BASE_SIMPLE, h: toggle}
+  - {t: BASE_SIMPLE_ENGRAMMER, h: toggle}
   - {t: BASE_SIMPLE, h: toggle}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
@@ -263,25 +393,25 @@ layers:
 combos:
 - p: [16, 17]
   k: {t: '[', s: '{'}
-  l: [BASE_FANCY, BASE_FANCY]
+  l: [BASE_FANCY, BASE_FANCY_ENGRAMMER]
 - p: [21, 22]
   k: {t: ']', s: '}'}
-  l: [BASE_FANCY, BASE_FANCY]
+  l: [BASE_FANCY, BASE_FANCY_ENGRAMMER]
 - p: [42, 43]
   k: '{'
-  l: [BASE_FANCY, BASE_FANCY]
+  l: [BASE_FANCY, BASE_FANCY_ENGRAMMER]
 - p: [47, 48]
   k: '}'
-  l: [BASE_FANCY, BASE_FANCY]
+  l: [BASE_FANCY, BASE_FANCY_ENGRAMMER]
 - p: [15, 16]
   k: {t: '=', s: +}
-  l: [BASE_FANCY, BASE_FANCY]
+  l: [BASE_FANCY, BASE_FANCY_ENGRAMMER]
 - p: [22, 23]
   k: {h: '-', s: _}
-  l: [BASE_FANCY, BASE_FANCY]
+  l: [BASE_FANCY, BASE_FANCY_ENGRAMMER]
 - p: [41, 42]
   k: +
-  l: [BASE_FANCY, BASE_FANCY]
+  l: [BASE_FANCY, BASE_FANCY_ENGRAMMER]
 - p: [48, 49]
   k: _
-  l: [BASE_FANCY, BASE_FANCY]
+  l: [BASE_FANCY, BASE_FANCY_ENGRAMMER]
