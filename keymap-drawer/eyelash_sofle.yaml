@@ -56,13 +56,13 @@ layers:
   - PLAY PAUSE
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - FUNCTION
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-esc$$', h: FUNCTION}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - SYSTEM
+  - {t: '$$mdi:keyboard-tab$$', h: SYSTEM}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   BASE_SIMPLE:
@@ -121,13 +121,13 @@ layers:
   - PLAY PAUSE
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - FUNCTION
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-esc$$', h: FUNCTION}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - SYSTEM
+  - {t: '$$mdi:keyboard-tab$$', h: SYSTEM}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   BASE_FANCY_ENGRAMMER:
@@ -186,13 +186,13 @@ layers:
   - PLAY PAUSE
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - FUNCTION
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-esc$$', h: FUNCTION}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - SYSTEM
+  - {t: '$$mdi:keyboard-tab$$', h: SYSTEM}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   BASE_SIMPLE_ENGRAMMER:
@@ -251,13 +251,13 @@ layers:
   - PLAY PAUSE
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - FUNCTION
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-esc$$', h: FUNCTION}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - SYSTEM
+  - {t: '$$mdi:keyboard-tab$$', h: SYSTEM}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   FUNCTION:
